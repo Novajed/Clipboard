@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600");
+html h1,
+html h2,
+html h3,
+html h4,
+html h5 {
+  font-family: 'Bai Jamjuree', 'sans-serif';
+  font-weight: 600;
+}
+
+html p {
+  font-family: 'Bai Jamjuree', 'sans-serif';
+  color: #b8b8b8;
+  font-size: 18px;
+}
+
+html button {
+  margin: 5px;
+}
+
+.hero {
+  background: url("images/bg-header-desktop.png");
+  background-size: cover;
+}
+
+.footer {
+  padding: 2rem;
+}
+
+.ios-button {
+  color: white;
+  background-color: #26baa4;
+  -webkit-box-shadow: 0 4px #23a491;
+          box-shadow: 0 4px #23a491;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.ios-button:hover {
+  background-color: #2bcab2;
+}
+
+.mac-button {
+  color: white;
+  background-color: #5c6df0;
+  -webkit-box-shadow: 0 4px #4e5ed4;
+          box-shadow: 0 4px #4e5ed4;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.mac-button:hover {
+  background-color: #6173ff;
+}
+
+.auto-margin {
+  margin: auto;
+}
+
+.by-half {
+  width: 50%;
+}
+
+.by-three-fourths {
+  max-width: 75%;
+}
+
+.btn-text {
+  color: white !important;
+  margin: 10px 25px 10px 25px !important;
+  font-weight: 600;
+}
+
+.fit-content {
+  max-width: 50%;
+  text-align: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  padding: 2%;
+}
+
+.footer-links a:hover {
+  color: #26baa4;
+}
+
+.company-logo {
+  filter: grayscale(100%);
+  filter: gray;
+  /* IE 6-9 */
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.company-logo:hover {
+  filter: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+}
+
+#Path {
+  cursor: pointer;
+  -webkit-transition: 100ms ease-in-out;
+  transition: 100ms ease-in-out;
+  margin: auto;
+}
+
+#Path:hover {
+  fill: #26baa4;
+}
+/*# sourceMappingURL=index.css.map */

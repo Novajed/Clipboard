@@ -18,6 +18,10 @@ html button {
   margin: 5px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .hero {
   background: url("images/bg-header-desktop.png");
   background-size: cover;
